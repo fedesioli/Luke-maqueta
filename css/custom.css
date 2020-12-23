@@ -100,11 +100,17 @@
 		padding-left: 0px;
 		margin-left: 0px;
 		padding-right: 3%;
-		top:17.8%;
+		top:15.7%;
 	}
 
-@media only screen and (min-width: 1001px){
-	#primeramobile{
+
+@media only screen and (max-width: 400px){
+	#bodydesktop{
+		display: none;
+	}
+}
+@media only screen and (min-width: 401px){
+	#bodyresponsive{
 		display: none;
 	}
 }
