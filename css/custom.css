@@ -33,9 +33,6 @@
 	 #powered{
 		visibility: hidden;
 	 }
-	 #oppel{
-		 
-	 }
 	 #poweredresponsive{
 		 display: block;
 		 
@@ -86,6 +83,7 @@
 		flex-direction: column;
 		flex-basis: 100%;
 		flex: 1;
+		position: relative;
 	}
 
 	.blue-column{
@@ -96,11 +94,12 @@
 	}
 
 	.green-column{
+		max-width: 90%;
 		position: absolute;
 		padding-left: 0px;
 		margin-left: 0px;
-		padding-right: 3%;
-		top:17.8%;
+		padding-right: 20%;
+		bottom: 0;
 	}
 
 
